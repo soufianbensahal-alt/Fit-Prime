@@ -104,7 +104,7 @@ function filteredExercises() { const term = state.exerciseSearch.trim().toLocale
 function explore() { const visible = filteredExercises(); return shell(`
   <section class="page-title training-title"><p class="eyebrow">BIBLIOTECA</p><h1>Explora <em>ejercicios</em></h1><span>${exercises.length} movimientos con técnica y músculos trabajados.</span></section>
   <div class="exercise-search"><input data-exercise-search value="${state.exerciseSearch}" placeholder="Buscar ejercicio" aria-label="Buscar ejercicio" />${icon('chart')}</div>
-  <div class="exercise-filters">${exerciseCategories.map(category => `<button class="${state.exerciseFilter === category.id ? 'selected' : ''}" data-filter="${category.id}">${category.label}</button>`).join('')}</div>
+  <div class="exercise-filters">${exerciseCategories.map(category => `<button class="${state.exerciseFilter === category.id ? 'selected' : ''}" data-filter="${category.id}" aria-pressed="${state.exerciseFilter === category.id}">${category.label}</button>`).join('')}</div>
   <section class="exercise-catalog">${visible.length ? visible.map(exerciseCard).join('') : `<div class="exercise-empty"><p>${state.exerciseSearch ? 'No se encontraron ejercicios con estos filtros.' : 'No hay ejercicios en esta categoría.'}</p><button data-clear-exercise-filters>Limpiar filtros</button></div>`}</section>
 `); }
 
