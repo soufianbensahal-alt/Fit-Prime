@@ -5,3 +5,6 @@ dist/
 .DS_Store
 .vercel/
 tmp/
+bench-press-video/
+node_modules/
+dist/
