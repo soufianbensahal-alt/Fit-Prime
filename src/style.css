@@ -39,6 +39,7 @@ header{display:flex;align-items:center;justify-content:space-between;margin-bott
 .stat-card strong{display:block;font:600 18px 'Space Grotesk';margin-top:12px}
 .stat-card small{color:var(--muted);font-size:10px}
 .week-chart,.metric-main{background:var(--card);padding:20px;border-radius:21px}
+.home-weekly-volume{margin-top:26px}
 .chart-top{display:flex;justify-content:space-between}
 .chart-top h2,.metric-main h2{font:600 27px 'Space Grotesk';margin:0}
 .chart-top h2 small,.metric-main h2 small{font-size:13px;color:var(--muted)}
