@@ -11,5 +11,11 @@
   "devDependencies": {
     "vite": "latest",
     "vitest": "^4.1.9"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.6.1",
+    "@remotion/three": "^4.0.482",
+    "@types/three": "^0.184.1",
+    "three": "^0.184.0"
   }
 }
