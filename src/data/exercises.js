@@ -26,3 +26,18 @@ Object.assign(exercises.find(exercise => exercise.id === 'press-banca'), {
   videoUrl: '/videos/exercises/press-banca-demo-smooth.mp4',
   videoAlt: 'Press banca en cámara lenta mostrando el recorrido de empuje horizontal'
 });
+
+const exerciseImages = {
+  'press-inclinado': '/images/exercises/press-inclinado.png',
+  flexiones: '/images/exercises/flexiones.png',
+  aperturas: '/images/exercises/aperturas.png',
+  'fondos-paralelas': '/images/exercises/fondos-paralelas.png',
+  dominadas: '/images/exercises/dominadas.png',
+  'jalon-pecho': '/images/exercises/jalon-pecho.png',
+  'remo-barra': '/images/exercises/remo-barra.png',
+  'remo-mancuerna': '/images/exercises/remo-mancuerna.png'
+};
+
+exercises.forEach(exercise => {
+  if (exerciseImages[exercise.id]) exercise.imageUrl = exerciseImages[exercise.id];
+});
