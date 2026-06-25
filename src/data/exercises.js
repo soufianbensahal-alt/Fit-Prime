@@ -44,7 +44,15 @@ const exerciseImages = {
   rumano: '/images/exercises/rumano.png',
   'extension-cuad': '/images/exercises/extension-cuad.png',
   'curl-femoral': '/images/exercises/curl-femoral.png',
-  gemelos: '/images/exercises/gemelos.png'
+  gemelos: '/images/exercises/gemelos.png',
+  'press-militar': '/images/exercises/press-militar.png',
+  laterales: '/images/exercises/laterales.png',
+  frontales: '/images/exercises/frontales.png',
+  'reverse-fly': '/images/exercises/reverse-fly.png',
+  'face-pull': '/images/exercises/face-pull.png',
+  'curl-barra': '/images/exercises/curl-barra.png',
+  'curl-mancuernas': '/images/exercises/curl-mancuernas.png',
+  martillo: '/images/exercises/martillo.png'
 };
 
 exercises.forEach(exercise => {
