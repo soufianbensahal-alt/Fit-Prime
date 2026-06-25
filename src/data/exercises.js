@@ -28,6 +28,7 @@ Object.assign(exercises.find(exercise => exercise.id === 'press-banca'), {
 });
 
 const exerciseImages = {
+  'press-banca': '/images/exercises/press-banca.png',
   'press-inclinado': '/images/exercises/press-inclinado.png',
   flexiones: '/images/exercises/flexiones.png',
   aperturas: '/images/exercises/aperturas.png',
