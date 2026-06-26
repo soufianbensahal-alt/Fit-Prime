@@ -52,7 +52,15 @@ const exerciseImages = {
   'face-pull': '/images/exercises/face-pull.png',
   'curl-barra': '/images/exercises/curl-barra.png',
   'curl-mancuernas': '/images/exercises/curl-mancuernas.png',
-  martillo: '/images/exercises/martillo.png'
+  martillo: '/images/exercises/martillo.png',
+  concentrado: '/images/exercises/concentrado.png',
+  'triceps-polea': '/images/exercises/triceps-polea.png',
+  frances: '/images/exercises/frances.png',
+  'fondos-banco': '/images/exercises/fondos-banco.png',
+  'triceps-cabeza': '/images/exercises/triceps-cabeza.png',
+  plancha: '/images/exercises/plancha.png',
+  crunch: '/images/exercises/crunch.png',
+  'elevacion-piernas': '/images/exercises/elevacion-piernas.png'
 };
 
 exercises.forEach(exercise => {
