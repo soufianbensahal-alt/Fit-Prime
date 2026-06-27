@@ -22,9 +22,7 @@ Object.assign(exercises.find(exercise => exercise.id === 'press-banca'), {
   description: 'Ejercicio de empuje horizontal enfocado en el pectoral mayor, con participación del tríceps y deltoides anterior.',
   steps: ['Túmbate con los pies firmes en el suelo y las escápulas retraídas.', 'Agarra la barra ligeramente más ancho que los hombros.', 'Baja de forma controlada hacia la zona media o baja del pecho.', 'Empuja arriba manteniendo pecho y espalda estables.'],
   commonMistakes: ['Rebotar la barra en el pecho.', 'Levantar los pies o perder estabilidad escapular.', 'Abrir demasiado los codos o bajar sin control.'],
-  tips: ['Controla la bajada y mantén tensión en la espalda.', 'Empuja con fuerza sin bloquear los codos de forma agresiva.'],
-  videoUrl: '/videos/exercises/press-banca-demo-smooth.mp4',
-  videoAlt: 'Press banca en cámara lenta mostrando el recorrido de empuje horizontal'
+  tips: ['Controla la bajada y mantén tensión en la espalda.', 'Empuja con fuerza sin bloquear los codos de forma agresiva.']
 });
 
 const exerciseImages = {
