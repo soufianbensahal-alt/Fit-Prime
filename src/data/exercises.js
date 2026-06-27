@@ -60,7 +60,14 @@ const exerciseImages = {
   'triceps-cabeza': '/images/exercises/triceps-cabeza.png',
   plancha: '/images/exercises/plancha.png',
   crunch: '/images/exercises/crunch.png',
-  'elevacion-piernas': '/images/exercises/elevacion-piernas.png'
+  'elevacion-piernas': '/images/exercises/elevacion-piernas.png',
+  'russian-twist': '/images/exercises/russian-twist.png',
+  'mountain-climbers': '/images/exercises/mountain-climbers.png',
+  burpees: '/images/exercises/burpees.png',
+  'jumping-jacks': '/images/exercises/jumping-jacks.png',
+  'battle-ropes': '/images/exercises/battle-ropes.png',
+  'sentadilla-salto': '/images/exercises/sentadilla-salto.png',
+  'farmer-walk': '/images/exercises/farmer-walk.png'
 };
 
 exercises.forEach(exercise => {
