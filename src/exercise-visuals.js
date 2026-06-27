@@ -14,11 +14,11 @@ function muscleClass(exercise) {
   return 'full';
 }
 
-export function exerciseVisual(exercise, { animated = false, compact = false } = {}) {
-  if (exercise.imageUrl) return `<span class="exercise-motion exercise-motion--image ${compact ? 'exercise-motion--compact' : ''}" aria-hidden="true"><img src="${exercise.imageUrl}" alt="" loading="lazy" /></span>`;
+export function exerciseVisual(exercise, { animated = false, compact = false, className = '', alt = '' } = {}) {
+  if (exercise.imageUrl) return `<span class="exercise-motion exercise-motion--image ${compact ? 'exercise-motion--compact' : ''} ${className}" aria-hidden="${alt ? 'false' : 'true'}"><img src="${exercise.imageUrl}" alt="${alt}" loading="lazy" /></span>`;
   const pattern = patternById[exercise.id] || 'strength';
   const motionClass = animated ? 'exercise-motion--animated' : '';
-  return `<span class="exercise-motion ${motionClass} pattern-${pattern} ${compact ? 'exercise-motion--compact' : ''}" aria-hidden="true"><svg viewBox="0 0 180 120" role="presentation"><g class="motion-figure"><circle cx="90" cy="20" r="10"/><path class="motion-body" d="M90 31v33m-25-20 25 10 25-10M78 64l-12 35m36-35 12 35"/><path class="motion-bar" d="M49 40h82m-9-6v12m-64-12v12"/><path class="motion-path" d="M42 75q48 28 96 0"/></g></svg></span>`;
+  return `<span class="exercise-motion ${motionClass} pattern-${pattern} ${compact ? 'exercise-motion--compact' : ''} ${className}" aria-hidden="true"><svg viewBox="0 0 180 120" role="presentation"><g class="motion-figure"><circle cx="90" cy="20" r="10"/><path class="motion-body" d="M90 31v33m-25-20 25 10 25-10M78 64l-12 35m36-35 12 35"/><path class="motion-bar" d="M49 40h82m-9-6v12m-64-12v12"/><path class="motion-path" d="M42 75q48 28 96 0"/></g></svg></span>`;
 }
 
 export function exerciseMuscleMap(exercise) {
