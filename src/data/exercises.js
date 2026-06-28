@@ -68,6 +68,18 @@ const exerciseImages = {
   'farmer-walk': '/images/exercises/farmer-walk.png'
 };
 
+const bodyMapImages = {
+  'press-banca': '/images/bodymaps/press-banca.png',
+  'press-inclinado': '/images/bodymaps/press-inclinado.png',
+  flexiones: '/images/bodymaps/flexiones.png',
+  aperturas: '/images/bodymaps/aperturas.png',
+  'fondos-paralelas': '/images/bodymaps/fondos-paralelas.png',
+  dominadas: '/images/bodymaps/dominadas.png',
+  'jalon-pecho': '/images/bodymaps/jalon-pecho.png',
+  'remo-barra': '/images/bodymaps/remo-barra.png'
+};
+
 exercises.forEach(exercise => {
   if (exerciseImages[exercise.id]) exercise.imageUrl = exerciseImages[exercise.id];
+  if (bodyMapImages[exercise.id]) exercise.bodyMapUrl = bodyMapImages[exercise.id];
 });

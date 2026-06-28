@@ -258,3 +258,8 @@ html{background:#080a09}body{background:#080a09;min-height:100dvh}.phone-shell{p
 .exercise-detail-media__frame video{display:none}
 @media(min-width:700px){.media-viewer{width:min(100% - 40px,500px)}}
 @media(max-width:430px){.media-viewer{width:calc(100% - 20px);padding:13px;border-radius:22px}.media-viewer__stage img{max-height:58dvh}.exercise-detail-media__frame img{max-height:300px}}
+
+.muscle-map--image{grid-template-columns:minmax(122px,42%) 1fr;padding:12px;align-items:center}
+.muscle-map__figure--image{height:auto;aspect-ratio:1/1;overflow:hidden;background:#111511;border:1px solid rgba(223,255,76,.12)}
+.muscle-map__figure--image img{display:block;width:100%;height:100%;object-fit:cover;border-radius:11px}
+@media(max-width:430px){.muscle-map--image{grid-template-columns:116px minmax(0,1fr);gap:10px}.muscle-map__figure--image{height:auto}}
