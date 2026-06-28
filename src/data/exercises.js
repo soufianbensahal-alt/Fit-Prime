@@ -76,7 +76,15 @@ const bodyMapImages = {
   'fondos-paralelas': '/images/bodymaps/fondos-paralelas.png',
   dominadas: '/images/bodymaps/dominadas.png',
   'jalon-pecho': '/images/bodymaps/jalon-pecho.png',
-  'remo-barra': '/images/bodymaps/remo-barra.png'
+  'remo-barra': '/images/bodymaps/remo-barra.png',
+  'remo-mancuerna': '/images/bodymaps/remo-mancuerna.png',
+  'peso-muerto': '/images/bodymaps/peso-muerto.png',
+  sentadilla: '/images/bodymaps/sentadilla.png',
+  prensa: '/images/bodymaps/prensa.png',
+  zancadas: '/images/bodymaps/zancadas.png',
+  rumano: '/images/bodymaps/rumano.png',
+  'extension-cuad': '/images/bodymaps/extension-cuad.png',
+  'curl-femoral': '/images/bodymaps/curl-femoral.png'
 };
 
 exercises.forEach(exercise => {
