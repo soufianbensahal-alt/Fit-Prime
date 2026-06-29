@@ -263,3 +263,13 @@ html{background:#080a09}body{background:#080a09;min-height:100dvh}.phone-shell{p
 .muscle-map__figure--image{height:auto;aspect-ratio:1/1;overflow:hidden;background:#111511;border:1px solid rgba(223,255,76,.12)}
 .muscle-map__figure--image img{display:block;width:100%;height:100%;object-fit:cover;border-radius:11px}
 @media(max-width:430px){.muscle-map--image{grid-template-columns:116px minmax(0,1fr);gap:10px}.muscle-map__figure--image{height:auto}}
+
+.picker-return{margin:4px 0 20px}
+.picker-return h1{font-size:clamp(25px,7vw,32px)}
+.picker-return .back-button{flex:0 0 44px;width:44px;height:44px;border-radius:15px}
+@media(max-width:430px){.picker-return{margin:2px 0 18px}.picker-return .back-button{flex-basis:42px;width:42px;height:42px}}
+
+.empty-workout{gap:16px;padding:17px 18px}
+.empty-workout>.icon{flex:0 0 34px;width:34px;height:34px}
+.empty-workout>span{min-width:0}
+@media(max-width:430px){.empty-workout{gap:13px;padding:15px 16px}.empty-workout>.icon{flex-basis:30px;width:30px;height:30px}}
